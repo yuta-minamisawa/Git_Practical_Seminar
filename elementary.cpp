@@ -3,9 +3,9 @@
  * @param heieght 高さ
  * @param bottom 底辺
  */
-int get_area_triangle(int height, int bottom){
-    int area;
-    area = height * bottom / 2;
+double get_area_triangle(double height, double bottom){
+    double area;
+    area = height * bottom / 2.0;
     return area;
 }
 
