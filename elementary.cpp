@@ -8,3 +8,10 @@ double get_area_triangle(int height, int bottom){
     area = height * bottom / 2;
     return area;
 }
+
+/**
+ * @brief 1 ~ 10 の数の足し算をする
+ */
+int sum_ten(){
+    return 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10;
+}
